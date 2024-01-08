@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #343a40;
+}
+
+.bor{
+    border: 1px solid red;
+}
+
+/* nav start */
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: #f9f9f9;
+    margin-bottom: 5px;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+/* nav end */
+
+/* Hero Start */
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero .display-4{
+    color: #ffffff;
+}
+
+.hero .lead{
+    color: #e0e0e0;
+}
+
+/* Hero End */
+
+/* age-input start */
+.age-input{
+    padding:5rem 0 5rem 0;
+}
+
+.age-input h2,
+.age-input p,
+.age-input label {
+    color: #ffffff;
+}
+
+.age-input input{
+    width: 100%;
+}
+
+.age-input input,
+.age-input button {
+    background-color: #dcdcdc;
+    color: #343a40; 
+    border: none;
+}
+
+.age-input button:hover {
+    background-color: #495057; 
+    border: none;
+}
+
+.age-input #error-message{
+    color: red;
+    font-size: 14px;
+}
+/* age-input end */
+
+/* Movie List start */
+.movie-list{
+    background-color: #f9f9f9;
+    padding: 5rem 0 5rem 0;
+}
+
+.movie-list .display-5{
+    color: #343A40;
+}
+
+.movie-list .nav .nav-link{
+    color: #343A40;
+}
+
+.movie-list .nav-tabs .nav-link.active, 
+.movie-list .nav-tabs .nav-item.show .nav-link{
+    background-color: #343A40;
+    color: #f9f9f9;
+}
+
+.movie-list .card img{
+    height: 500px;
+}
+
+@media (max-width: 1000px){
+    .movie-list .card img{
+        height: 300px;
+    }
+}
+
+@media (max-width: 575px){
+    .movie-list .card img{
+        height: 500px;
+    }
+}
+/* Movie List end */
+
